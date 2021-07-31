@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - BULLET
+  - FxTemporaire
+  - MONSTER
+  - PUNCH
+  - PLAYER
+  - HP_BAR
+  - PUNCH2
+  - MEDICINE
+  - Item
+  - Coin
+  - PUNCH3
+  - PUNCH4
+  - COIN
+  - FINISH2
+  - Finish2
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - BARREL
+  - Water
+  - UI
+  - BULLET
+  - MONSTER_BODY
+  - MONSTER_PUNCH
+  - GRANADE
+  - BALCONY
+  - Player
+  - Post
+  - Item
+  - coin
+  - car
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
