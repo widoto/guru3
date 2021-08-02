@@ -10,7 +10,7 @@ public class CamFollow : MonoBehaviour
     public Transform followPosition;
     void Start()
     {
-        
+        transform.position = followPosition.position;
     }
     void Update()
     {
