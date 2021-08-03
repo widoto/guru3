@@ -43,12 +43,12 @@ public class PlayerCtrl : MonoBehaviour
 
     ///////////////////////////////////////
 
-    //////////////////////////////제발 되라제발
+    //////////////////////////////제발 되라제발 제발제발제발제발
     // 폭발 효과 프리팹 변수
     public GameObject explosion;
     ///////////////////////////////
     public string sceneName = "CLEAR";
-    public string sceneNametwo = "ClearSine2";
+    public string sceneNametwo = "FinalClear";
     public string sceneNamethree = "DEAD";
 
     IEnumerator Start()

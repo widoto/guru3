@@ -7,6 +7,6 @@ public class DEADtoRESTART : MonoBehaviour
 {
     public void ChangeFirstScene()
     {
-      SceneManager.LoadScene("REALFINAL3");
+      SceneManager.LoadScene("REALFINAL3"); //요건 씬 전환
     }
 }

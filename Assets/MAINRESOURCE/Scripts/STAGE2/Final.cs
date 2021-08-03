@@ -6,6 +6,6 @@ public class Final : MonoBehaviour
 {
     public void ChangeFirstScene()
     {
-      SceneManager.LoadScene("FinalClear");
+      SceneManager.LoadScene("FinalClear"); //요것두 씬전환
     }
 }

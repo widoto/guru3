@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.313059, g: 0.29368842, b: 0.514055, a: 1}
+  m_IndirectSpecularColor: {r: 0.313029, g: 0.2937053, b: 0.5140702, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -11048,7 +11048,7 @@ MonoBehaviour:
   pd: {fileID: 1698609448}
   explosion: {fileID: 0}
   sceneName: CLEAR
-  sceneNametwo: ClearSine2
+  sceneNametwo: FinalClear
   sceneNamethree: DEAD
 --- !u!143 &317216666
 CharacterController:

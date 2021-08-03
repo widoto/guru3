@@ -6,6 +6,6 @@ public class HowTo3 : MonoBehaviour
 {
     public void ChangeFirstScene()
     {
-      SceneManager.LoadScene("ClearSine1");
+      SceneManager.LoadScene("stage2");
     }
 }
