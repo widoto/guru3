@@ -5,7 +5,7 @@ using UnityEngine;
 public class Coin : MonoBehaviour
 {
     // Start is called before the first frame update
-    //코인제발만들자 되라되라되라되라되라되라
+    //코인제발만들자 되라되라되라
 
     [SerializeField]
     private GameObject coinEffectPrefab;

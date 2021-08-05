@@ -16,7 +16,7 @@ public class BulletCtrl : MonoBehaviour
         // Rigidbody 컴포넌트를 추출
         rb = GetComponent<Rigidbody>();
 
-        // 총알의 전진 방향으로 힘(Force)을 가한다. 총 조준 발사 뱅뱅뱅
+        // 총알의 전진 방향으로 힘(Force)을 가한다. 
         rb.AddForce(transform.forward * force);
     }
 }

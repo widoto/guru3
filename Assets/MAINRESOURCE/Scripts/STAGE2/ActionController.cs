@@ -75,5 +75,5 @@ public class ActionController : MonoBehaviour {
     {
         pickupActivated = false;
         actionText.gameObject.SetActive(false);
-    }//느무 어렵다 윤주님 민경님 칭찬해주세요 느무 어려워요
+    }
 }
