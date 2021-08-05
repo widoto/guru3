@@ -36,6 +36,6 @@ public class BombExplosion1 : MonoBehaviour
         
       //}
       /////////////////////
-      Destroy(gameObject);
+      Destroy(gameObject); //사라져버려
     }
 }

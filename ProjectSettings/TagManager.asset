@@ -19,6 +19,7 @@ TagManager:
   - COIN
   - FINISH2
   - Finish2
+  - Finish_Cine
   layers:
   - Default
   - TransparentFX

@@ -24,14 +24,8 @@ EditorBuildSettings:
     path: Assets/Scenes/HowTo3.unity
     guid: 6cd857e58a680154081af947c7011da9
   - enabled: 1
-    path: Assets/Scenes/ClearSine1.unity
-    guid: 3c7fe83c1b17ca447919ff95e9467f32
-  - enabled: 1
     path: Assets/Scenes/stage2.unity
     guid: bdaaddeb382cb694f9145438c53ee021
-  - enabled: 1
-    path: Assets/Scenes/ClearSine2.unity
-    guid: 82e896172fc3bc545959f28efa826a7e
   - enabled: 1
     path: Assets/Scenes/FinalClear.unity
     guid: d89b824663a913d48a4fbcfa012da2b4

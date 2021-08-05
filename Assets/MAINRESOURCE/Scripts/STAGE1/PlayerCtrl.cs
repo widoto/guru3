@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.Playables;
 
 public class PlayerCtrl : MonoBehaviour
 {
@@ -34,16 +35,20 @@ public class PlayerCtrl : MonoBehaviour
     [SerializeField]
     private GameController gameController;
 
+    //PlayableDirector pd; //감독 오브젝트
+    public PlayableDirector pd;
+
+    
 
 
     ///////////////////////////////////////
 
-    //////////////////////////////제발 되라제발
+    //////////////////////////////제발 되라제발 제발제발제발제발
     // 폭발 효과 프리팹 변수
     public GameObject explosion;
     ///////////////////////////////
     public string sceneName = "CLEAR";
-    public string sceneNametwo = "ClearSine2";
+    public string sceneNametwo = "FinalClear";
     public string sceneNamethree = "DEAD";
 
     IEnumerator Start()
@@ -197,21 +202,7 @@ public class PlayerCtrl : MonoBehaviour
 
             SceneManager.LoadScene(sceneName);
         }
-        if (currHp >= 0.0f && coll.CompareTag("Finish2"))
-        {
-            
-            DisplayHealth();
 
-            Debug.Log($"Player hp = {currHp / initHp}");
-            // Player의 생명이 0 이하이면 사망 처리
-            if (currHp <= 0.0f)
-            {
-                PlayerDie();
-                SceneManager.LoadScene(sceneNamethree);
-            }
-
-            SceneManager.LoadScene(sceneNametwo);
-        }
 
         ////////////////////////////////////
         else if(coll.CompareTag("COIN"))
@@ -246,9 +237,26 @@ public class PlayerCtrl : MonoBehaviour
                 SceneManager.LoadScene(sceneNamethree);
             }
         }
+
+        if (currHp >= 0.0f && coll.CompareTag("Finish_Cine"))
+        {
+            DisplayHealth();
+
+            Debug.Log($"Player hp = {currHp / initHp}");
+            // Player의 생명이 0 이하이면 사망 처리
+            if (currHp <= 0.0f)
+            {
+                PlayerDie();
+                SceneManager.LoadScene(sceneNamethree);
+            }
+            pd.gameObject.SetActive(true);
+            pd.Play();
+            // 이 자리에 코루틴함수 넣어야할 것 같습니다.
+            SceneManager.LoadScene(sceneNametwo);
+        }    
         ////////////////////////////////////////
 
-        
+
     }
 
     // Player의 사망 처리

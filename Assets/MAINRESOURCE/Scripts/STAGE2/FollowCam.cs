@@ -5,6 +5,7 @@ using UnityEngine;
 public class FollowCam : MonoBehaviour
 {
     // 따라가야 할 대상을 연결할 변수
+    
     public Transform targetTr;
     // Main Camera 자신의 Transform 컴포넌트
     private Transform camTr;

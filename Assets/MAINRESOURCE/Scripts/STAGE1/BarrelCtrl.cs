@@ -8,7 +8,7 @@ public class BarrelCtrl : MonoBehaviour
     public GameObject expEffect;
     // 무작위로 적용할 텍스처 배열//
     //public Texture[] textures;//
-    // 폭발 반경
+    // 폭발 반경 반경
     public float radius = 10.0f;
     // 하위에 있는 Mesh Renderer 컴포넌트를 저장할 변수 //
     //private new MeshRenderer renderer;//
@@ -33,7 +33,7 @@ public class BarrelCtrl : MonoBehaviour
         //renderer.material.mainTexture = textures[idx];//
     }
 
-    // 충돌 시 발생하는 콜백 함수
+    // 충돌 시 발생한다다다
     void OnCollisionEnter(Collision coll)
     {
         if (coll.collider.CompareTag("BULLET"))
@@ -80,7 +80,7 @@ public class BarrelCtrl : MonoBehaviour
             rb.mass = 1.0f;
             // freezeRotation 제한값을 해제
             rb.constraints = RigidbodyConstraints.None;
-            // 폭발력을 전달
+            // 폭발력을 전달 전달
             rb.AddExplosionForce(1500.0f, pos, radius, 1200.0f);
         }
     }

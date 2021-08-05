@@ -9,7 +9,7 @@ public class CamRotate : MonoBehaviour
 
     //회전 각도 제한
     public float rotLimit= 60.0f;
-    //회전누적변수
+    //회전누적변수 돈다이 머리가 돈다이
     float mx = 0;
     float my =0;
     void Start()

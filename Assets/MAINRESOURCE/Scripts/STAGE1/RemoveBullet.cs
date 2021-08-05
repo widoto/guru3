@@ -24,7 +24,7 @@ public class RemoveBullet : MonoBehaviour
             // 일정 시간이 지난 후 스파크 파티클을 삭제
             Destroy(spark, 0.5f);
 
-            // 충돌한 게임오브젝트 삭제
+            // 충돌한 게임오브젝트 삭제 사라져버려.....
             Destroy(coll.gameObject);
         }
     }
