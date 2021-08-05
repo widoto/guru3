@@ -200,7 +200,7 @@ public class PlayerCtrl : MonoBehaviour
                 SceneManager.LoadScene(sceneNamethree);
             }
 
-            SceneManager.LoadScene(sceneName);
+            SceneManager.LoadScene(sceneNametwo);
         }
 
 
@@ -252,7 +252,7 @@ public class PlayerCtrl : MonoBehaviour
             pd.gameObject.SetActive(true);
             pd.Play();
             // 이 자리에 코루틴함수 넣어야할 것 같습니다.
-            SceneManager.LoadScene(sceneNametwo);
+            //SceneManager.LoadScene(sceneNametwo);
         }    
         ////////////////////////////////////////
 
