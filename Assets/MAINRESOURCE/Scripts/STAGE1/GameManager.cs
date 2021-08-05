@@ -148,7 +148,6 @@ public class GameManager : MonoBehaviour
         gState = GameState.GameOver;
       }
 
-
     }
 
     ////////////////////////////
@@ -258,14 +257,14 @@ public class GameManager : MonoBehaviour
 
    //게임 재시작하기(현재 씬 다시 로드)
     public void GameReStart()
-    {
-      
+    {  
       //시간을 1배로 되돌린다.
       Time.timeScale = 1.0f;
 
-      //현재 씬을 다시 로드한다.
-      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+      gState = GameState.Run;
 
+      //현재 씬을 다시 로드한다.
+      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);        
     }
 
     //게임을 종료하기
