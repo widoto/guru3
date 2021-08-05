@@ -20,6 +20,7 @@ TagManager:
   - FINISH2
   - Finish2
   - Finish_Cine
+  - Finish_Cine2
   layers:
   - Default
   - TransparentFX
@@ -37,7 +38,7 @@ TagManager:
   - Item
   - coin
   - car
-  - 
+  - wall
   - 
   - 
   - 

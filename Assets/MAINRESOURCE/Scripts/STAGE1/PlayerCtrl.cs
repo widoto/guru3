@@ -102,7 +102,7 @@ public class PlayerCtrl : MonoBehaviour
         // 주인공 캐릭터의 애니메이션 설정
         PlayerAnim(h, v);
 
-        if(Input.GetMouseButtonDown(2))
+        if(Input.GetMouseButtonDown(1))
         {
             currHp += 10.0f;
             DisplayHealth();
@@ -252,10 +252,25 @@ public class PlayerCtrl : MonoBehaviour
             pd.gameObject.SetActive(true);
             pd.Play();
             // 이 자리에 코루틴함수 넣어야할 것 같습니다.
-            SceneManager.LoadScene(sceneNametwo);
+            
         }    
         ////////////////////////////////////////
+        if (currHp >= 0.0f && coll.CompareTag("Finish_Cine2"))
+        {
+            DisplayHealth();
 
+            Debug.Log($"Player hp = {currHp / initHp}");
+            // Player의 생명이 0 이하이면 사망 처리
+            if (currHp <= 0.0f)
+            {
+                PlayerDie();
+                SceneManager.LoadScene(sceneNamethree);
+            }
+            pd.gameObject.SetActive(true);
+            pd.Play();
+            // 이 자리에 코루틴함수 넣어야할 것 같습니다.
+            SceneManager.LoadScene(sceneNametwo);
+        }
 
     }
 
