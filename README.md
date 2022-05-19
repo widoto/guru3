@@ -2,7 +2,9 @@
 
 # Dream in the desert
 
-Story:
-가족과 함께 사막에서 캠핑을 하는 패키지 여행을 가게 된
-10살 스미스. 배불리 먹고 단잠에 빠진 스미스가 문득 눈을 뜨자, 그의 주변이 온통 미로의 벽으로 둘러싸여 있습니다. 스미스는 직감적으로 미로를 탈출하지 않으면
-꿈에서 깰 수 없다는 것을 깨닫고, 미로를 탈출해 보기로 합니다. 과연... 스미스는 무사히 꿈에서 깰 수 있을까요?
+![3](https://user-images.githubusercontent.com/85910625/169260369-cc81f71c-937b-457e-a8f9-8f174c922248.PNG)
+![4](https://user-images.githubusercontent.com/85910625/169260382-b80f8da3-35fd-4d14-9f49-31faf760be8f.PNG)
+![1](https://user-images.githubusercontent.com/85910625/169260401-14fa4b9d-705e-47da-94ff-be8ba67677ae.PNG)
+![2](https://user-images.githubusercontent.com/85910625/169260415-c79ab47f-79a1-4c05-8897-93d570f2bf43.PNG)
+![7](https://user-images.githubusercontent.com/85910625/169260427-fb7ebf82-9415-4202-9d84-e7582c680c2e.PNG)
+![6](https://user-images.githubusercontent.com/85910625/169260434-241f366f-7d50-4377-aadf-90cd68ff0ec3.PNG)
